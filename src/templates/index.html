@@ -53,20 +53,24 @@
             
             var content = '<div class="overlaybox">' +
             '    <div class="boxtitle">' + position.name + '</div>' +
-            '    <div class="first">' +
+            '    <div class="summery"> ' + 
+            '      <div class="leftbox"> 어제 결제 횟수 <br> ' + position.transac  +'</div>' +
+            '      <div class="rightbox"> SNS 인기도 <br>' + position.SNS  + '</div>' +
+            '    </div>' +
+            '    <div class="first" style="background: url(' + position.pic + ') no-repeat;">' +
             '        <div class="triangle text">1</div>' +
-            '        <div class="movietitle text">드래곤 길들이기2</div>' +
+            '        <div class="movietitle text">'+ position.tag1 +'</div>' +
             '    </div>' +
             '    <ul>' +
             '        <li class="up">' +
             '            <span class="number">2</span>' +
-            '            <span class="title">명량</span>' +
+            '            <span class="title">'+ position.tag2 +'</span>' +
             '            <span class="arrow up"></span>' +
             '            <span class="count">2</span>' +
             '        </li>' +
             '        <li>' +
             '            <span class="number">3</span>' +
-            '            <span class="title">해적(바다로 간 산적)</span>' +
+            '            <span class="title">' + position.tag3 + '</span>' +
             '            <span class="arrow up"></span>' +
             '            <span class="count">6</span>' +
             '        </li>' +
